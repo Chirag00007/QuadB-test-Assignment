@@ -7,7 +7,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 import ProductsCard from './ProductsCard';
 
-const responsive = {
+const responsive = { 
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
         items: 4,
